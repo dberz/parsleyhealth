@@ -1,0 +1,114 @@
+/* 
+	My custom settings. These variables are copied from _settings.css
+	This file will only contain uncommented settings that are actually used in the theme.
+*/
+
+// We use these to define default font stacks
+$font-family-sans-serif: "AdamCgProLight", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-serif: "Lora", Georgia, Cambria, "Times New Roman", Times, serif;
+$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+
+// We use these to define default font weights
+$font-weight-normal: normal !default;
+$font-weight-bold: bold !default;
+
+$white       : #FFFFFF;
+$ghost       : #FAFAFA;
+$snow        : #F9F9F9;
+$vapor       : #F6F6F6;
+$white-smoke : #F5F5F5;
+$silver      : #EFEFEF;
+$smoke       : #EEEEEE;
+$gainsboro   : #DDDDDD;
+$iron        : #CCCCCC;
+$base        : #AAAAAA;
+$aluminum    : #999999;
+$jumbo       : #888888;
+$monsoon     : #777777;
+$steel       : #666666;
+$charcoal    : #555555;
+$tuatara     : #444444;
+$oil         : #333333;
+$jet         : #222222;
+$black       : #000000;
+
+// We use these as default colors throughout
+$primary-color: #43E2BD;
+$secondary-color: #FA7174;
+$tertiary-color: #FDAC7E;
+$dark-grey: #5D6070;
+$light-grey: #FBFBF9;
+
+$alert-color: #f04124;
+$success-color: #43AC6A;
+$warning-color: #f08a24;
+$info-color: #a0d3e8;
+
+
+// We use these to control various global styles
+$body-bg: $light-grey;
+$body-font-color: $dark-grey;
+$body-font-family: $font-family-serif;
+$body-font-weight: $font-weight-normal;
+$body-font-style: normal;
+$header-font-color: $primary-color;
+$header-line-height: 1.4;
+
+$header-font-family: $font-family-sans-serif;
+$header-font-weight: 400;
+$header-text-rendering: optimizeLegibility;
+$topbar-link-weight: bold;
+
+$base-font-size: 105%;
+
+$hr-border-color: scale-color($dark-grey, $lightness: 90%);
+$hr-margin: rem-calc(40);
+
+$blockquote-font-color: scale-color($body-font-color, $lightness: 20%);
+
+$button-font-family: $header-font-family;
+$button-font-color: $light-grey;
+$button-font-color-alt: $light-grey;
+
+$button-bg-color: $primary-color;
+
+$tabbar-bg: $dark-grey;
+$tabbar-color: $light-grey;
+$tabbar-header-color: $secondary-color;
+$off-canvas-bg: $dark-grey;
+
+$panel-bg: scale-color($light-grey, $lightness: -5%);
+$panel-font-color: $dark-grey;
+
+$sub-nav-list-margin: rem-calc(-4 0 18);
+$sub-nav-list-padding-top: rem-calc(4);
+$sub-nav-padding: rem-calc(3 9);
+$sub-nav-font-color-hover: scale-color($primary-color, $lightness: -25%);
+$sub-nav-active-bg: $primary-color;
+$sub-nav-active-color: $primary-color;
+
+$topbar-bg-color: $dark-grey;
+// $topbar-height: 4rem;
+
+$topbar-dropdown-bg: $dark-grey;
+$topbar-dropdown-link-color: $light-grey;
+$topbar-dropdown-link-bg: $dark-grey;
+$topbar-dropdown-toggle-color: $light-grey;
+
+$topbar-link-color: $light-grey;
+$topbar-link-color-hover: $primary-color;
+$topbar-link-color-active: $primary-color;
+$topbar-link-color-active-hover: $light-grey;
+
+$topbar-link-font-size: rem-calc(14);
+$topbar-link-hover-lightness: -10%; // Darken by 10%
+$topbar-link-bg: $dark-grey;
+$topbar-dropdown-link-bg-hover: scale-color($dark-grey, $lightness: -25%);
+
+$topbar-link-bg-hover: $dark-grey;
+$topbar-link-bg-active: $dark-grey;
+$topbar-link-bg-active-hover: scale-color($dark-grey, $lightness: -14%);
+$topbar-link-font-family: $header-font-family;
+$topbar-link-text-transform: uppercase;
+
+$include-html-accordion-classes: $include-html-classes;

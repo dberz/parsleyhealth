@@ -1,0 +1,83 @@
+.blog-wrapper {
+	background-color: white;
+
+	.post-item:hover {
+	  background-color: $light-grey;
+	  transition-duration: $alert-transition-speed;
+	}
+
+	.title h4 a {
+		font-family: $header-font-family;
+		text-transform: uppercase;
+	}
+
+	.read-more h5 {
+		text-align: center;
+		font-family: $header-font-family;
+		color: $primary-color;
+		text-transform: uppercase;
+		margin-top: -1em;
+	}
+}
+
+.blog-wrapper .image img {
+  width: 100%;
+	padding-bottom: 1em;
+}
+
+.blog-wrapper ul {
+	margin: 0;
+}
+
+.blog-wrapper .read-more {
+	font-family: $header-font-family;
+	color: $secondary-color;
+	font-size: .8em;
+	text-align: right;
+/*	padding-right: 1em;*/
+}
+
+.blog-wrapper .post-meta .post-excerpt, .blog-wrapper .post-meta a {
+  font-family: $body-font-family;
+  font-weight: $body-font-weight;
+  font-style: italic;
+  line-height: 20px;
+}
+
+.blog-container {
+	padding-top: 1em;
+}
+
+/*POST PAGES*/
+
+.post-photo {
+
+	img {
+		width: 100%;
+	}
+}
+
+.post-content {
+	margin-top: -40%;
+	z-index: 99;
+	background-color: white;
+
+	h1 {
+		padding-top: .5rem;
+	}
+
+}
+
+.post-meta p {
+	font-style: italic;
+	font-size: .8rem;
+}
+
+.post-left {
+	background-color: white;
+}
+
+#sidebar {
+	padding-top: 1em;
+	background-color: $light-grey;
+}

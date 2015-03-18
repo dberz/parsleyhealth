@@ -1,0 +1,96 @@
+@font-face {
+	font-family: AdamCgPro;
+	src: url("../assets/fonts/AdamCgPro.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: AdamCgProLight;
+	src: url("../assets/fonts/AdamCgProLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*.container {
+  @media #{$medium-up} {
+		margin-top: 90px;
+  }
+}*/
+
+.full-width {
+  max-width: 100%;
+}
+
+.green-background {
+	background-color: $light-grey;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+h1, h2, h3, h4, .button {
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+
+h5, h6 {
+	color: $dark-grey;
+	font-family: $body-font-family;
+	padding-bottom: .4rem;
+}
+
+.entry-content {
+	background-color: $white;
+
+	padding-top: 1em;
+
+	top: 60px;
+
+	h4 {
+		color: $dark-grey !important;
+		font-weight: 400;
+		font-family: $body-font-family !important;
+		text-transform: none;
+	}
+}
+
+.body-background {
+	background-color: white;
+	padding-top: 1em;
+}
+
+strong {
+	color: scale-color($secondary-color, $lightness: 25%);
+}
+
+.partner-table {
+
+	h2 {
+		margin-top: 1em;
+		text-transform: uppercase;
+		text-align: left;
+
+	  @media #{$medium-up} {
+			margin-top: 0em;
+	  }
+	}
+
+	h3 {
+		text-transform: uppercase;
+		text-align: left;
+
+	  @media #{$medium-up} {
+			margin-top: 0em;
+	  }
+	}
+
+}
+
+.partnership-header {
+	margin: 1em 0;
+	text-align: center;
+	background-color: $dark-grey;
+	color: $primary-color;
+	padding-top: .25em;
+}

@@ -1,0 +1,97 @@
+/*TOP BAR*/
+
+.top-bar-container {
+	background-color: $dark-grey;
+	box-shadow: 0px 3px 8px -4px rgba(0,0,0,0.15);
+	margin-bottom: 0;
+
+
+	.nav-logo {
+
+		padding: .6rem 1rem 0rem 1rem;
+		list-style: none;
+
+		h1 {
+
+			margin: 0;
+
+			a {
+				color: $primary-color;
+				font-family: "AdamCgPro", $header-font-family;
+				font-size: 3rem;
+				letter-spacing: 0.04em;
+		  	text-align: center;
+
+				&:hover { 
+					color: $light-grey;
+					transition: all 0.5s ease 0.1s;
+				}
+			}
+		}
+	} /*nav logo*/
+
+	.lower-bar {
+		background-color: $dark-grey;
+	}
+
+	.top-bar {
+
+		display: block;
+		text-align: center;
+
+		section.top-bar-section {
+			display: inline-block;
+
+			li:not(.has-form) a:not(.button) {
+		      background: $dark-grey !important; 
+		      &:hover { background: $topbar-link-bg-active-hover; }
+		    }
+		}
+
+		.sub-menu li {
+			text-align: left;
+		}
+
+	} /*top bar*/
+
+
+}
+
+
+
+
+/*issue where off-canvas is not clickable.*/
+.move-right .exit-off-canvas {
+	z-index: -1000;
+}
+
+/*TAB BAR*/
+
+.tab-bar {
+
+	.left-small {
+		border: none !important;
+	}
+	
+
+
+	h1 {
+		color: $primary-color;
+		font-size: 1.2rem;
+		margin: 0;
+		line-height: 40px;
+		height: 80%;
+		padding-top: .25em;
+
+	}
+}
+
+
+.parsley-sub {
+
+	/* hover speed*/
+  & a:hover {
+  	transition: all 0.3s ease 0.1s;
+  }	
+
+}
